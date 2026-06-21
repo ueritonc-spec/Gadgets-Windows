@@ -38,3 +38,16 @@ Desktop.ini
 
 # Distribuição
 installer/*.tmp
+
+
+# Instaladores
+installer/*.exe
+
+# Executáveis
+*.exe
+
+# Build do Inno Setup
+Output/
+
+# PyInstaller
+*.spec.bak

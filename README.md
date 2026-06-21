@@ -1,112 +1,96 @@
-\# 🖥️ Desktop Gadgets
+# 🖥️ Desktop Gadgets
 
+![Banner](assets/banner/github-banner.png)
 
+Desktop Gadgets é um software moderno para monitoramento de hardware em tempo real utilizando widgets para Windows.
 
-Desktop Gadgets é uma aplicação desenvolvida em Python para monitoramento em tempo real do computador através de widgets na área de trabalho.
+# 🖥️ Gadgets-Windows
 
+Desktop Gadgets é um software desenvolvido em Python para monitoramento de hardware em tempo real através de widgets modernos para a área de trabalho do Windows.
 
+---
 
-\## ✨ Funcionalidades
+## 📸 Captura de Tela
 
+![Desktop Gadgets](assets/screenshots/desktop.png)
 
+---
 
-\- 📊 Monitor de CPU
+## ✨ Recursos
 
-\- 💾 Monitor de Memória RAM
+- 📊 Monitor de CPU
+- 💾 Monitor de Memória RAM
+- 🌡️ Temperatura do processador
+- 💽 Utilização de Disco
+- 🌐 Tráfego de Rede
+- 📈 Histórico em tempo real
+- 🎨 Interface moderna
+- ⚙️ Configurações personalizadas
+- 🚀 Inicialização automática com o Windows
+- 🔍 Escala dos widgets
 
-\- 🌡️ Temperatura do processador
+---
 
-\- 💽 Uso de Disco
+## 🛠 Tecnologias
 
-\- 🌐 Monitor de Rede
+- Python
+- PySide6
+- psutil
+- WMI
+- LibreHardwareMonitor
+- PyInstaller
+- Inno Setup
 
-\- 📈 Histórico de utilização
+---
 
-\- 🎨 Interface moderna com tema escuro
+## 📂 Estrutura
 
-\- ⚙️ Configurações personalizadas
-
-
-
-\## 🛠 Tecnologias utilizadas
-
-
-
-\- Python
-
-\- PySide6
-
-\- psutil
-
-\- LibreHardwareMonitor
-
-\- PyInstaller
-
-\- Inno Setup
-
-
-
-\## 📁 Estrutura do Projeto
-
-
-
+```text
+core/
+widgets/
+ui/
+themes/
+data/
+LibreHardwareMonitor/
 ```
 
-DesktopGadgets\_Final
+---
 
-│
+## 🚀 Executando
 
-├── core
-
-├── widgets
-
-├── ui
-
-├── data
-
-├── themes
-
-├── LibreHardwareMonitor
-
-├── installer
-
-├── build
-
-├── dist
-
-│
-
-├── DesktopGadgets.spec
-
-├── installer.iss
-
-├── icone.ico
-
-└── main.py
-
+```bash
+pip install -r requirements.txt
+python main.py
 ```
 
+---
 
+## 📦 Compilação
 
-\## 🚀 Compilação
+```bash
+pyinstaller DesktopGadgets.spec
+```
 
+---
 
+## 📥 Download
 
-O projeto é compilado utilizando PyInstaller.
+As versões compiladas estarão disponíveis na aba **Releases**.
 
+---
 
+## 🗺️ Roadmap
 
-\## 📦 Instalador
+- ✅ Widgets de Hardware
+- ✅ Painel de Controle
+- ✅ Inicialização com Windows
+- ✅ Escala dos Widgets
+- ⏳ Novos temas
+- ⏳ Atualizador automático
+- ⏳ Sistema de plugins
 
+---
 
+## 👨‍💻 Autor
 
-O instalador é criado utilizando Inno Setup.
-
-
-
-\## 📄 Licença
-
-
-
-Projeto desenvolvido por Ueriton Carvalho.
-
+Desenvolvido por **Ueriton Carvalho**.
