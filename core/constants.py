@@ -1,0 +1,5 @@
+APP_NAME = "DesktopGadgets"
+
+APP_VERSION = "1.0"
+
+DEFAULT_SCALE = 0.65

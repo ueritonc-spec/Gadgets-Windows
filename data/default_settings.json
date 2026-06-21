@@ -1,0 +1,38 @@
+{
+    "scale": 0.65,
+
+    "startup": false,
+
+    "widgets": {
+
+        "cpu": {
+            "enabled": false,
+            "x": 20,
+            "y": 20
+        },
+
+        "ram": {
+            "enabled": false,
+            "x": 380,
+            "y": 20
+        },
+
+        "temp": {
+            "enabled": false,
+            "x": 740,
+            "y": 20
+        },
+
+        "net": {
+            "enabled": false,
+            "x": 1100,
+            "y": 20
+        },
+
+        "disk": {
+            "enabled": false,
+            "x": 20,
+            "y": 440
+        }
+    }
+}
